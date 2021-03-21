@@ -7,7 +7,7 @@ import Title from './components/Title';
 
 
 export const Projects = () => {
-    return <React.Fragment>
+    return (
         <Container className="content-center mt-5">
             <Title text="projects" />
             <p>projects to which i've contributed. collaborative projects marked with asterisk (*)</p>
@@ -33,5 +33,5 @@ export const Projects = () => {
             />
 
         </Container>
-        </React.Fragment>
+    );
 }
