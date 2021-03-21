@@ -23,8 +23,9 @@ export const Projects = () => {
                 desc="c/c++ rtos for operating ventilators using an arduino. mainly working on alarm module and CI/CD."
             />
             <hr/>
-            <Project name="masters' thesis (in progress)" link="https://miamioh.edu" 
-                desc="library for easing the usage of 'big memory' in c++ applications. currently in preliminary stages"
+            <Project name="masters' thesis (in progress)*" link="https://miamioh.edu" 
+                desc="library for easing the usage of 'big memory' in c++ applications. currently in preliminary stages.
+                my advisor is dr. dhananjai rao."
             />
             <hr/>
             <Project name="plantpro*" link="https://github.com/rudiejd/plantpro" 

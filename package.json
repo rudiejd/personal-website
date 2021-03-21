@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "homepage": "https://rudiejd.github.io/personal-website",
+  "homepage": "https://rudiejd.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh pages -d build",
+    "deploy": "aws s3 sync build/ s3://rudiejd.io --acl public-read",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

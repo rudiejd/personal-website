@@ -4,7 +4,8 @@ import './App.css';
 import { Navigation } from './components/Navigation';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';    
 import { Home } from './Home';
-import { Projects } from './Projects'
+import { Projects } from './Projects';
+import { NoMatch } from './NoMatch';
 class App extends Component {
   render() {
       return (
@@ -16,6 +17,7 @@ class App extends Component {
                       <Switch>
                               <Route exact path="/" component={Home} />
                               <Route exact path="/projects" component={Projects} />
+                              <Route component={NoMatch} />
                       </Switch>
                       
               </main>

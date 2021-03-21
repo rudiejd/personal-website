@@ -34,7 +34,7 @@ export const Home = () => {
     return <React.Fragment>
         <Container className="content-center mt-5">
             <Title text="hello there." />
-            <Avatar src="me.jpg" alt="Picture of me" height="300" className="img-center" />
+            <Avatar src="me.jpg" alt="Picture of me" height="300" className="img-center img-fluid" />
             
             <h3 className="font-weight-bold">i'm jd, great to meet you!</h3>
             <p class="display-5">i'm a software engineer with a year of experience studying
