@@ -17,7 +17,7 @@ export const Navigation = () => (
                 <Navbar.Collapse id="navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Item>
-                            <Link to="/projects" className="nav-link">projects</Link>
+                            <Link to="/projects" className="nav-link">projects and research</Link>
                         </Nav.Item>
                         <Nav.Item>
                             <a href="https://docs.google.com/document/d/1L8tglPGOg881KT1vB1L6vw9Ocs5lJfy5B3E9LdDZk2s/edit?usp=sharing" className="nav-link">resume</a>

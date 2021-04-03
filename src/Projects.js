@@ -9,7 +9,7 @@ import Title from './components/Title';
 export const Projects = () => {
     return (
         <Container className="content-center mt-5">
-            <Title text="projects" />
+            <Title text="projects and research" />
             <p>projects to which i've contributed. collaborative projects marked with asterisk (*)</p>
             <Project name="nba all-star predictions" link="https://github.com/rudiejd/nba_allstar_predictions" 
                 desc="utilized python machine learning libraries to predict nba all-stars with 80% accuracy."
