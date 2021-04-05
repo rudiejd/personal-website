@@ -63,7 +63,7 @@ export const Home = () => {
             <SocialIcon url="https://github.com/rudiejd" bgColor="black" fgColor="white" className="mr-5"/>
             <SocialIcon url="https://linkedin.com/in/jdrudie"  fgColor="white" className="mr-5"/>
             <SocialIcon url="https://gitlab.com/rudiejd" bgColor="black" fgColor="white" className="mr-5"/>
-            <SocialIcon url="https://spotify.com/user/rudebowski/" bgColor="green" fgColor="white" className="mr-5"/>
+            <SocialIcon url="https://open.spotify.com/user/rudebowski/" bgColor="green" fgColor="white" className="mr-5"/>
             <SocialIcon url="https://instagram.com/jd_rude/" fgColor="white" className="mr-5"/>
             <SocialIcon url="mailto:rudiejd@miamioh.edu" network="email" />
 
